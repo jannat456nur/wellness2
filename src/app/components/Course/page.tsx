@@ -21,6 +21,7 @@ import mark from "../../assets/provideicon (2).png";
 const Page = () => {
     const sliderRef = React.useRef<HTMLDivElement>(null);
     const [currentSlide, setCurrentSlide] = React.useState(0);
+    console.log(currentSlide);
 
     const courses = [
         {
