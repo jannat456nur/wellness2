@@ -12,6 +12,7 @@
   }
   ```
 */
+"use client"
 const navigation = {
   Categories: [
     { name: 'Nutrition and diet', href: '#' },
@@ -97,7 +98,7 @@ const navigation = {
     },
 
 
-   
+
   ],
 }
 
@@ -178,7 +179,7 @@ export default function Example() {
           </div>
         </div>
         <div className="mt-12 flex justify-between border-t border-gray-200 pt-2">
-       
+
           <p className="mt-8 text-xs leading-5 text-gray-500">&copy;2024 EduPath. All rights reserved.</p>
         </div>
       </div>
